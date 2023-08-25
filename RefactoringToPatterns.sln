@@ -5,9 +5,9 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5DC0A4E9-510A-4941-9E97-D826FE598E48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "Examples\Examples.csproj", "{15DB7E8C-5419-4F91-BAA0-870FF12F8912}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "src\Examples\Examples.csproj", "{15DB7E8C-5419-4F91-BAA0-870FF12F8912}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "ExamplesTest\UnitTest.csproj", "{49EAE18F-A82E-4F52-B53A-1938CB61941D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "src\UnitTest\UnitTest.csproj", "{49EAE18F-A82E-4F52-B53A-1938CB61941D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +29,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{15DB7E8C-5419-4F91-BAA0-870FF12F8912} = {5DC0A4E9-510A-4941-9E97-D826FE598E48}
+		{49EAE18F-A82E-4F52-B53A-1938CB61941D} = {5DC0A4E9-510A-4941-9E97-D826FE598E48}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AAD494CD-58C4-44C9-8017-43E7AF0767A4}
