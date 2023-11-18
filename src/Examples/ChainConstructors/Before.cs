@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace RefactoringToPatterns.ChainConstructors.Before
+﻿namespace RefactoringToPatterns.ChainConstructors.Before
 {
     public class Vehicle
     {
@@ -40,5 +34,6 @@ namespace RefactoringToPatterns.ChainConstructors.Before
             Mileage = mileage;
             IsElectric = isElectric;
         }
+       
     }
 }
