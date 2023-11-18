@@ -43,6 +43,21 @@
   <ItemGroup>
     <Compile Include="ChainConstructors\After.cs" />
     <Compile Include="ChainConstructors\Before.cs" />
+    <Compile Include="CreationMethods\After.cs" />
+    <Compile Include="CreationMethods\Before.cs" />
+    <Compile Include="Factory\AbstractLogger.cs" />
+    <Compile Include="Factory\LoggerFactory.cs" />
+    <Compile Include="Factory\ConcreteFactory\FileLoggerConcreteFactory.cs" />
+    <Compile Include="Factory\ConcreteFactory\DataBaseLoggerConcreteFactory.cs" />
+    <Compile Include="Factory\ConcreteFactory\ConsoleLoggerConcreteFactory.cs" />
+    <Compile Include="Factory\Logger\ConsoleLogger.cs" />
+    <Compile Include="Factory\Logger\DataBaseLogger.cs" />
+    <Compile Include="Factory\Logger\FileLogger.cs" />
+    <Compile Include="Factory\Logger\ILogger.cs" />
+    <Compile Include="Factory\SimpleFactory\IndiaShippingProvider.cs" />
+    <Compile Include="Factory\SimpleFactory\IShippingProvider.cs" />
+    <Compile Include="Factory\SimpleFactory\ShippingProviderFactory.cs" />
+    <Compile Include="Factory\SimpleFactory\USAShippingProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

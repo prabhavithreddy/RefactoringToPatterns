@@ -49,8 +49,13 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CreationMethods\After.cs" />
+    <Compile Include="CreationMethods\Before.cs" />
     <Compile Include="ChainConstructors\After.cs" />
     <Compile Include="ChainConstructors\Before.cs" />
+    <Compile Include="Factory\FactoryMethod\TestAbstractLogger.cs" />
+    <Compile Include="Factory\LoggerFactory\TestSimpleFactory.cs" />
+    <Compile Include="Factory\SimpleFactory\TestLoggerFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

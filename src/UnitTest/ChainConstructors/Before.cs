@@ -2,7 +2,7 @@
 using RefactoringToPatterns.ChainConstructors.Before;
 using System;
 
-namespace UnitTest
+namespace UnitTest.ChainConstructors
 {
     [TestClass]
     public class Before

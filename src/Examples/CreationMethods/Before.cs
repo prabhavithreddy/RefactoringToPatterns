@@ -1,4 +1,4 @@
-﻿namespace RefactoringToPatterns.ChainConstructors.After
+﻿namespace RefactoringToPatterns.CreationMethods.Before
 {
     public class Vehicle
     {
